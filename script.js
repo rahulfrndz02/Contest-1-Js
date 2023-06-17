@@ -27,12 +27,7 @@ function PrintDeveloperbyForEach() {
 function addData() {
   //Write your code here, just console.log
   let id = arr.length;
-  let newData = {
-    id: id + 1,
-    name: "Ankit",
-    age: "22",
-    profession: "developer",
-  };
+  let newData = { id: 4, name: "susan", age: "20", profession: "intern" };
   arr.push(newData);
   console.log(arr);
 }
@@ -46,8 +41,8 @@ function removeAdmin() {
 function concatenateArray() {
   //Write your code here, just console.log
   let newEmployee = [
-    { id: 4, name: "Alan", age: "19", profession: "intern" },
-    { id: 5, name: "Julia", age: "20", profession: "developer" },
+    { id: 4, name: "Alan", age: "19", profession: "Application Developer" },
+    { id: 5, name: "Julia", age: "20", profession: "Manager" },
   ];
 
   let concateArr = arr.concat(newEmployee);
